@@ -110,7 +110,7 @@ Router(config-router)#
 
 
 
-![Uploading image.png…]()
+![image](https://github.com/ugurcomptech/Cisco-EIGRP-Routing/assets/133202238/2ef5287d-34ad-4f43-8a8d-faa1caffc584)
 
 
 
