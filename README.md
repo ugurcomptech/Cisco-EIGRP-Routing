@@ -30,7 +30,7 @@ Yapılandırmalara Geçelim:
 
 ## Router
 
-## Ankara Router
+### Ankara Router
 ```
 Router>enable
 Router#configure terminal
@@ -42,7 +42,7 @@ Router(config)interface serial 0/1/0
 Router(config-if)#ip address 10.1.1.1 255.0.0.0
 ```
 
-## İstanbul Router 
+### İstanbul Router 
 
 ```
 Router>enable
@@ -58,7 +58,7 @@ Router(config)interface serial 0/1/1
 Router(config-if)#ip address 20.1.1.1 255.0.0.0
 ```
 
-## İzmir Router
+### İzmir Router
 ```
 Router>enable
 Router#configure terminal
@@ -74,7 +74,7 @@ Router(config-if)#ip address 20.1.1.2 255.0.0.0
 
 ## EIGRP
 
-## Ankara Router
+### Ankara Router
 ```
 Router>enable
 Router#configure terminal
@@ -85,7 +85,7 @@ Router(config-router)#network 10.1.1.1 0.255.255.255  // İstanbulla iletşimde 
 Router(config-router)#
 ```
 
-## İstanbul Router
+### İstanbul Router
 ```
 Router>enable
 Router#configure terminal
@@ -97,7 +97,7 @@ Router(config-router)#network 20.1.1.1 0.255.255.255  // İzmirle iletişimde ol
 Router(config-router)#
 ```
 
-## İzmir Router
+### İzmir Router
 ```
 Router>enable
 Router#configure terminal
